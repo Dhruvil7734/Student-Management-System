@@ -1,0 +1,25 @@
+# Local secrets (contains the OpenAI API key) — never commit
+config/local.php
+
+# Uploaded student/teacher photos
+assets/images/students/*
+assets/images/teachers/*
+!assets/images/students/.gitkeep
+!assets/images/teachers/.gitkeep
+
+# SQL dumps and backups
+*.sql
+*.sql.gz
+!database/student_management.sql
+
+# Logs and OS noise
+*.log
+error_log
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Editor folders
+.vscode/
+.idea/
+*.swp
