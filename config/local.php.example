@@ -1,0 +1,8 @@
+<?php
+/**
+ * Copy this file to config/local.php and add your own OpenAI API key.
+ * config/local.php is loaded automatically by config/openai.php.
+ */
+
+define('OPENAI_API_KEY', 'sk-your-key-here');
+// define('OPENAI_MODEL', 'gpt-4o-mini');
